@@ -123,7 +123,8 @@ func signIn(page rod.Page) {
 
 // TODO: allow user to enter MFA Code
 func mfa(page rod.Page) {
-	log.Println("Touch U2f...")
+	message := log.Println("Touch U2f...")
+	color.Yellow(message)
 }
 
 // load cookies
